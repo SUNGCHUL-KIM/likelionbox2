@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>만 나이 계산기</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <div class="mx-auto max-w-screen-xl px-10 py-16">
+        <h1 class="text-center text-2xl font-bold text-green-600">만 나이 계산기</h1>
+        <h3 class="text-center text-xl font-bold text-green-400">만 나이 써라</h3>
+    </div>
+
+    <div class="pl-20">
+        <label for="birthday" class="font-bold">생년월일</label>
+
+        <div class="relative mt-1">
+            <input type="date" id="birthday" class="w-full rounded-lg border-gray-200">
+            </input>
+        </div>
+    </div>
+
+    <div class="pl-20 pt-20">
+        <label for="age" class="font-bold">만 나이</label>
+        <div class="relative mt-1 p-20" id="result">
+
+        </div>
+    </div>
+
+    <button id="submit" class="block w-full rounded-lg bg-green-400 text-xl text-white clear-both">
+        제출하기
+    </button>
+
+    <script src="age.js"></script>
+
+
+
+</body>
+
+</html>
